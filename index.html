@@ -1,0 +1,124 @@
+<html lang="eng">
+    <head>
+        <meta charset="utf-8">
+        <title>The Orchard</title> 
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="author" content="Jayden Dry">
+        <meta name="description" content=" ">
+        <meta name="keywords" content=" ">
+        <link rel="stylesheet" href="../css/style.css">
+        <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.58/dist/themes/light.css">
+        <script type="module" src="https://cdn.jsdelivr.net/npm/@shoelace-style/shoelace@2.0.0-beta.58/dist/shoelace.js"></script>         
+        <link rel="icon" href="/images/orchardlogo.png">        
+    </head>
+    <body>
+        <div class="navBarrier">
+            <button class="sideBar open" onclick="openNav()">&#9776</button>
+            <a href="index.html" style="float: left;position: absolute;left: 5px;"><img src="/images/orchardlogo.png" width="96px" style="margin-left: 20px;"></a>
+                <nav>
+                    <button class="sideBar Cross" onclick="closeNav()">&times</button>
+                    <a href="#">Home</a>
+                    <a href="#sector1" onclick="closeNav()">Orchard v1.0</a>
+                    <a href="#sector2" onclick="closeNav()">Experience</a>
+                    <a href="#sector3" onclick="closeNav()">Our Mission</a>
+                    <a href="#sector4" onclick="closeNav()">Smell</a>
+                    <a href="#sector5" onclick="closeNav()">Contact us</a>
+                </nav>
+        
+        </div>
+        <div class="hero" style="background-image: url(../images/lui-peng-unsplash.jpg); background-position: center;"></div>
+        <div class="subHero"><img src="/images/Pear_2021-Sep-22_09-12-1AM-000_CustomizedViqweew2340933512.png"></div>
+        <div class = "Header"><h2 word-break: break-all;>Projecting Multi-Modal<br>Experiences for all ages<br> to share</h2>
+            <sl-button href="#sector1" size="large" type="success" pill outline style="color:white">Show me</sl-button>
+        </div>
+        <a href="#sector1"><div class="nextArrow"></div></a>
+            <div class="main-sector" id="sector1">
+                <div id="sector1" class="menu-item text" >
+                    <h1 class="headerText">The Orchard V1.0</h1>
+                    <!-- Button 1 -->
+                    <svg id="infoBox1" class="infoBox" height="75px" width="75px">
+                        <circle cx="40" cy="40" r="30" fill="white" />
+                    </svg>
+                    <svg id="infoBox1" class="infoBox infoBox-back" height="75px" width="75px">
+                        <circle cx="40" cy="40" r="30" fill="white" />
+                    </svg>
+                    <sl-dialog label="Dialog" class="dialog-overview dialog1">
+                        At the top of the device you'll find a projector based device, this is to project a 3 Dimensional 'Environment' or visual immitation to appeal to the visual senses
+                        <sl-button slot="footer" type="success">Close</sl-button>
+                    </sl-dialog>
+                    <!-- Button 2 -->
+                    <svg id="infoBox2" class="infoBox" height="75px" width="75px">
+                        <circle cx="40" cy="40" r="30" fill="white" />
+                    </svg>
+                    <svg id="infoBox2" class="infoBox infoBox-back button2" height="75px" width="75px">
+                        <circle cx="40" cy="40" r="30" fill="white" />
+                    </svg>
+                    <sl-dialog label="Dialog" class="dialog-overview dialog2">
+                        The device is also equipped with a speaker for ambient sounds played based on the environment chosen either by a preset chosen or by uploading your own memory. From here our AI finds related music and plays it at a comfortable volume
+                        <sl-button slot="footer"type="success">Close</sl-button>
+                    </sl-dialog>
+                    <!-- Button 3 -->
+                    <svg id="infoBox3" class="infoBox" height="75px" width="75px">
+                        <circle cx="40" cy="40" r="30" fill="white" />
+                    </svg>
+                    <svg id="infoBox3" class="infoBox infoBox-back" height="75px" width="75px">
+                        <circle cx="40" cy="40" r="30" fill="white" />
+                    </svg>
+                    <sl-dialog label="Dialog" class="dialog-overview dialog3">
+                        Lastly it also functions as a lighting device when not in use or can be used to create ambient light not shown in the photo or video, this helps to add an extra layer to the memory experience.
+                        <sl-button slot="footer" type="success">Close</sl-button>
+                    </sl-dialog>
+                    <object class="Orchard3D" type="text/html" data="Orchard3D.html"></object>
+                </div>
+
+                <div id="sector2" class="menu-item text">
+                    <h1 class="headerText text2">Experience it yourself</h1>
+                    <div class="sector2-vector" style=><img src="images/Slideshow/1.png"></div>
+                    <a class="prevSlide">&#10094;</a>
+                    <a class="nextSlide">&#10095;</a>
+                </div>
+                <div id="sector3" class="menu-item text"><img class="sector3-background" src="images/DSC_1414.jpg" style="filter: blur(5px) brightness(0.5);">
+                    <h1 class="headerText">Our Mission</h1>
+                    <h2 class="sector3-text">Smell is something often disregarded, people dont tend to consider it as a factor as it
+                        is expected that it is just, there.<br> However, we do not realise what life is like without smell until we
+                        have lost it,<br> so to help with that, we want to create a device to help remind people of the smells
+                        from different experiences that they have captured and kept close to their hearts. </h2>
+                </div>
+
+                <div id="sector4" class="menu-item text">
+                    <h1 class="headerText text2">What its like with no smell</h1>
+                    <div class="cardCollection">
+                    <sl-card class="card-image">
+                        <span class="iconify" data-icon="radix-icons:cross-circled" data-width="125" data-height="125" style="color:black";></span>
+                        <p>You cannot experience the smell of a loved one, perfume, candles, of different environments or even yourself</p>
+                    </sl-card>
+                    <sl-card class="card-image">
+                        <span class="iconify" data-icon="radix-icons:cross-circled" data-width="125" data-height="125" style="color:black";></span>
+                        <p>You are unable to detect danger via smell, off-food or toxic products <br>making you more vulnerable to physical dangers</p>
+                    </sl-card>
+                    <sl-card class="card-image">
+                        <span class="iconify" data-icon="radix-icons:cross-circled" data-width="125" data-height="125" style="color:black";></span>
+                        <p>The neurological switch in your brain doesn't trigger between places as there is no smell trigger making it hard to relax,</p>
+                    </sl-card>
+                    </div>
+                </div>
+
+                <div id="sector5" class="menu-item text"  style="background-image: url(../images/lui-peng-unsplash.jpg); background-position: center;">
+                    <h1 class="headerText">Contact us</h1>
+                    <sl-form class="input-validation-type">
+                        <sl-input name="name" label="Name" required pill></sl-input>
+                        <sl-input type="email" label="Email" placeholder="you@example.com" required pill></sl-input>
+                        <sl-input type="phone" label="Phone Number" placeholder="+61 400 000 000" required pill></sl-input>
+                        <br>
+                        <sl-button type="success" submit pill>Submit</sl-button>
+                    </sl-form>
+                </div>
+        </div>
+    </body>
+    <footer style="bottom: -500vh">Jayden Dry 2021</footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+    <script src="/js/functions.js"></script>
+
+</html>
